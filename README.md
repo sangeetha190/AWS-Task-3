@@ -20,3 +20,7 @@ Click Create Bucket ✅
 - 4 Click Add files, then select a file from your computer.
 - 5 Click Upload.
 ![image](https://github.com/user-attachments/assets/88fc31fa-098c-4213-ad10-f352506b63d0)
+![image](https://github.com/user-attachments/assets/8644ca90-5655-4074-8f81-9affe25abe04)
+
+
+
