@@ -82,8 +82,14 @@ next step
    - We need two servers (EC2 instances) that will run behind the Load Balancer.
 
 ![image](https://github.com/user-attachments/assets/fcf3528f-37cc-43e9-aa95-b4cddfa82425)
+![image](https://github.com/user-attachments/assets/baeadc62-0a7b-4136-9bcb-31e919712810)
+![image](https://github.com/user-attachments/assets/ba332a12-ac1e-47f3-8a34-5fdb3f569ffc)
+![image](https://github.com/user-attachments/assets/7c8de6da-984a-4f29-ba5d-059d6fb2521e)
+![image](https://github.com/user-attachments/assets/d43bfa57-d545-4f4c-8853-ffec73e46460)
 
-![image](https://github.com/user-attachments/assets/163a7db2-2880-47e9-8869-071b31f75131)
+
+
+
 
 #### Create EC2 Instance 1 (web-server-1)
     - 1️⃣ Create Two EC2 Instances
