@@ -87,38 +87,43 @@ next step
   - Add User Data to install a web server:
   - ![image](https://github.com/user-attachments/assets/baeadc62-0a7b-4136-9bcb-31e919712810)
   - Repeat the process for the second instance, but modify the HTML content:
-- ![image](https://github.com/user-attachments/assets/ba332a12-ac1e-47f3-8a34-5fdb3f569ffc)
+  - ![image](https://github.com/user-attachments/assets/7c8de6da-984a-4f29-ba5d-059d6fb2521e)
+  - ![image](https://github.com/user-attachments/assets/d43bfa57-d545-4f4c-8853-ffec73e46460)
   - Configure Security Group:
   - Allow HTTP (Port 80) from Anywhere (0.0.0.0/0).
   - Allow SSH (Port 22) from Your IP.
   - Launch the Instances and note their Public IPs.
 
+![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
+![image](https://github.com/user-attachments/assets/baaa6488-d6f1-4773-837a-b745c6044bcb)
+![image](https://github.com/user-attachments/assets/31bbfb75-4f8d-450a-ba75-f02444b1b5fc)
+## 📌 Steps to Create web-server-2 (Same as web-server-1, with a small change)
+
+![image](https://github.com/user-attachments/assets/64fd1d8d-01cb-4af9-a190-16525671fe7b)
+![image](https://github.com/user-attachments/assets/46217138-e358-42b4-8a47-31a4c06fc5ff)
+![image](https://github.com/user-attachments/assets/f2987931-7493-4440-8435-7cd8e7b297dd)
 
 
-#### Create EC2 Instance 1 (web-server-1)
-    - 1️⃣ Create Two EC2 Instances
-        - Navigate to AWS EC2 Console.
-        - Click Launch Instance and configure the following:
-        - Choose Amazon Linux 2 as the AMI.
-        - Select t2.micro instance type.
-        - Configure instance details and ensure both instances are in the same VPC.
-        - Add User Data to install a web server:
-            - #!/bin/bash
-            - yum update -y
-            - yum install -y httpd
-            - echo "<h1>Welcome to Web Server 1</h1>" > /var/www/html/index.html
-            - systemctl start httpd
-            - systemctl enable httpd
+## After Lanuch the Both the Instances the Output is 
+![image](https://github.com/user-attachments/assets/46617a2f-6a62-4a7f-b942-eb3341a97420)
+![image](https://github.com/user-attachments/assets/4e621f41-8e53-4266-b571-936074f3a1aa)
 
 
+### Create an Application Load Balancer (ALB)
+  - Go to AWS Load Balancers Console.
+  - Click Create Load Balancer → Select Application Load Balancer.
+  - Configure
+  - Scheme: Internet-facing.
+  - IP Address Type: IPv4.
+  - Availability Zones: Select at least two subnets.
+
+ - Go to AWS Load Balancers Console.
+  - Click Create Load Balancer → Select Application Load Balancer.
+  - Configure
+  - Scheme: Internet-facing.
+  - IP Address Type: IPv4.
 
 create instance
-![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
-
-![image](https://github.com/user-attachments/assets/baaa6488-d6f1-4773-837a-b745c6044bcb)
-
-![image](https://github.com/user-attachments/assets/31bbfb75-4f8d-450a-ba75-f02444b1b5fc)
-
 ## 📌 Steps to Create web-server-2 (Same as web-server-1, with a small change)
 1️⃣ Go to AWS EC2 → Click "Launch Instance".
 2️⃣ Instance Name: web-server-2.
