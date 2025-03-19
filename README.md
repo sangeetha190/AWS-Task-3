@@ -58,7 +58,6 @@ next step
         - Open AWS CloudTrail → Click on your trail (s3-logging-trail).
         - Click "Edit" → Scroll to CloudWatch Logs.
         - Enable CloudWatch Logs → Choose "Create new Log Group" (e.g., S3-Log-Group).
-        - AWS will create a new IAM Role (e.g., CloudTrailRoleForCloudWatchLogs).
         - Click "Save Changes".
         - ✅ Now, S3 logs will be visible in CloudWatch Logs.
 
