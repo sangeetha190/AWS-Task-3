@@ -35,6 +35,17 @@ To track uploads, downloads, and deletions, we need to enable CloudTrail.
       - Storage Location:
            - Select "Use existing S3 bucket" and choose sangeethacloud-my-private-bucket 
            - This will store CloudTrail logs inside your bucket.
+### Step 5: View Logs in CloudWatch
+1️⃣ Go to AWS CloudWatch → Click "Log Groups".
+2️⃣ Open the Log Group (S3-Log-Group).
+3️⃣ Click on the latest Log Stream.
+4️⃣ Search for event types:
+
+"PutObject" → When a file is uploaded
+"DeleteObject" → When a file is deleted
+"GetObject" → When a file is downloaded
+✅ Now, you can track all file activities in CloudWatch.
+
 
 
 create the tail
