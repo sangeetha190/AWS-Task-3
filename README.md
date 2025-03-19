@@ -39,7 +39,7 @@ To track uploads, downloads, and deletions, we need to enable CloudTrail.
 
 create the tail
 - ![image](https://github.com/user-attachments/assets/e1bf5ed5-8b63-4bfc-a7f4-77a9b4d816c2)
-- ![image](https://github.com/user-attachments/assets/6900b018-158d-4595-b73f-3c76b25a72b1)
+- ![image](https://github.com/user-attachments/assets/635c2a6a-53ee-4434-af12-e72d2bebe804)
 next step 
 - ![image](https://github.com/user-attachments/assets/b52c4fe8-b977-4f6c-985f-b8e544dcbf1a)
 - review and proceed
