@@ -9,7 +9,7 @@
 #### Step 1: Create an S3 Bucket (Private)
       - Log in to AWS Console → Navigate to S3.
       - Click "Create bucket".
-      - Enter a Bucket Name (e.g., my-private-bucket).
+      - Enter a Bucket Name (sangeethacloud-my-private-bucket).
       - Choose a Region (same as your AWS resources).
       - Block all public access →  Enable (this ensures the bucket remains private).
       - Object Ownership → Keep it ACLs disabled (recommended).
