@@ -6,7 +6,7 @@
 - Step 4: Configured CloudWatch Logs to store and view logs.
 - Step 5: Verified file upload (PutObject) and delete (DeleteObject) logs in CloudWatch.
 
-#### 🛠 Step 1: Create an S3 Bucket (Private)
+#### Step 1: Create an S3 Bucket (Private)
 - Step 1: Created an S3 bucket with no public access.
 - Step 2: Uploaded files to the private S3 bucket.
    - Log in to AWS Console → Navigate to S3.
