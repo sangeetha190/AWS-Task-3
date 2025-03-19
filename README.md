@@ -19,7 +19,7 @@
 ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
 
 #### Step 2: Upload Files to S3
-      - Open S3 → Click on your bucket (my-private-bucket).
+      - Open S3 → Click on your bucket (sangeethacloud-my-private-bucket).
       - Click "Upload" → "Add files".
       - Select a file from your system (e.g., an image or text file).
       - Click "Upload".
@@ -33,29 +33,34 @@ To track uploads, downloads, and deletions, we need to enable CloudTrail.
       - Go to AWS CloudTrail → Click "Create trail".
       - Enter Trail Name: s3-logging-trail.
       - Storage Location:
-           - Select "Use existing S3 bucket" and choose my-private-bucket 
+           - Select "Use existing S3 bucket" and choose sangeethacloud-my-private-bucket 
            - This will store CloudTrail logs inside your bucket.
 
 
 create the tail
 - ![image](https://github.com/user-attachments/assets/e1bf5ed5-8b63-4bfc-a7f4-77a9b4d816c2)
-- ![image](https://github.com/user-attachments/assets/635c2a6a-53ee-4434-af12-e72d2bebe804)
-next step 
-- ![image](https://github.com/user-attachments/assets/b52c4fe8-b977-4f6c-985f-b8e544dcbf1a)
-- review and proceed
-![image](https://github.com/user-attachments/assets/9d0a3d8b-1ed3-4b0d-b748-a1b86ab775f4)
+- ![image](https://github.com/user-attachments/assets/ae62537f-7a55-4250-b49f-a0611990ad47)
 
       - Enable Logging for S3:
            - Scroll to Data events → Select S3.
-           - Choose "Specify bucket" and select my-private-bucket.
+           - Choose "Specify bucket" and select sangeethacloud-my-private-bucket.
            - Enable "Read & Write" (to log uploads & deletions).
        -  Click "Next", review the settings, and click "Create Trail".
        - ✅ CloudTrail is now tracking S3 file activities.
 
+next step 
+- ![image](https://github.com/user-attachments/assets/ee59b5e9-4ac4-4314-8c6a-bf1358e2d710)
+- review and proceed
+!![image](https://github.com/user-attachments/assets/4f9e3320-2010-422a-8565-17af339dab8a)
 
 
-
-
+#### Step 4: Enable CloudWatch Logs for Easy Viewing
+        - Open AWS CloudTrail → Click on your trail (s3-logging-trail).
+        - Click "Edit" → Scroll to CloudWatch Logs.
+        - Enable CloudWatch Logs → Choose "Create new Log Group" (e.g., S3-Log-Group).
+        - AWS will create a new IAM Role (e.g., CloudTrailRoleForCloudWatchLogs).
+        - Click "Save Changes".
+        - ✅ Now, S3 logs will be visible in CloudWatch Logs.
 
 
 
