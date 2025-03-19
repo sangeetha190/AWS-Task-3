@@ -45,8 +45,7 @@ To track uploads, downloads, and deletions, we need to enable CloudTrail.
           - "GetObject" → When a file is downloaded
       - ✅ Now, you can track all file activities in CloudWatch.
 
-
-
+![image](https://github.com/user-attachments/assets/b831bd14-33f7-4fc4-b4cd-e230f5d3f9d9)
 
 
 
