@@ -17,13 +17,12 @@
       -  Bucket is now created with no public access.
       - ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
 
-📂 Step 2: Upload Files to S3
-1️⃣ Open S3 → Click on your bucket (my-private-bucket).
-2️⃣ Click "Upload" → "Add files".
-3️⃣ Select a file from your system (e.g., an image or text file).
-4️⃣ Click "Upload".
-
-✅ File is successfully uploaded to S3.
+#### Step 2: Upload Files to S3
+      - Open S3 → Click on your bucket (my-private-bucket).
+      - Click "Upload" → "Add files".
+      - Select a file from your system (e.g., an image or text file).
+      - Click "Upload".
+      - ✅ File is successfully uploaded to S3.
 
 - Create bucket 
 
