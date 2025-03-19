@@ -146,3 +146,11 @@ Use the same security group as web-server-1 (allow SSH & HTTP).
 
 ![image](https://github.com/user-attachments/assets/87745904-dc37-40e3-b067-202ee381ef0a)
 
+![image](https://github.com/user-attachments/assets/081a4de7-3a5f-44ec-a71f-d30b392c650f)
+
+After Lanuch the Both the Instances the Output is 
+![image](https://github.com/user-attachments/assets/46617a2f-6a62-4a7f-b942-eb3341a97420)
+
+![image](https://github.com/user-attachments/assets/4e621f41-8e53-4266-b571-936074f3a1aa)
+
+
