@@ -49,9 +49,9 @@ create the tail
        - ✅ CloudTrail is now tracking S3 file activities.
 
 next step 
-- ![image](https://github.com/user-attachments/assets/ee59b5e9-4ac4-4314-8c6a-bf1358e2d710)
+  ![image](https://github.com/user-attachments/assets/ee59b5e9-4ac4-4314-8c6a-bf1358e2d710)
 - review and proceed
-!![image](https://github.com/user-attachments/assets/4f9e3320-2010-422a-8565-17af339dab8a)
+  !![image](https://github.com/user-attachments/assets/4f9e3320-2010-422a-8565-17af339dab8a)
 
 
 #### Step 4: Enable CloudWatch Logs for Easy Viewing
