@@ -1,5 +1,23 @@
 ![image](https://github.com/user-attachments/assets/3a1f2f35-7cd5-4a9e-849d-b8b463dd36fe)
 - Create bucket 
+
+new 
+- ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
+new
+
+upload the file
+- ![image](https://github.com/user-attachments/assets/53afda2b-88b4-4a88-83b5-d15cac9be59e)
+
+create the tail
+- ![image](https://github.com/user-attachments/assets/e1bf5ed5-8b63-4bfc-a7f4-77a9b4d816c2)
+next step 
+- ![image](https://github.com/user-attachments/assets/b52c4fe8-b977-4f6c-985f-b8e544dcbf1a)
+- review and proceed
+![image](https://github.com/user-attachments/assets/9d0a3d8b-1ed3-4b0d-b748-a1b86ab775f4)
+
+
+=====================================================================================================
+
 ![image](https://github.com/user-attachments/assets/5fb8872c-cb4b-41dc-a8c6-2338d677b04f)
 
 ![image](https://github.com/user-attachments/assets/c0005a3c-24ce-46b3-82cd-a608f90e36f8)
