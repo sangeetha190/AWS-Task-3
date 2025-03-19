@@ -120,4 +120,29 @@ create instance
 
 ![image](https://github.com/user-attachments/assets/31bbfb75-4f8d-450a-ba75-f02444b1b5fc)
 
+## 📌 Steps to Create web-server-2 (Same as web-server-1, with a small change)
+1️⃣ Go to AWS EC2 → Click "Launch Instance".
+2️⃣ Instance Name: web-server-2.
+3️⃣ AMI (OS): Choose Amazon Linux 2 (or Ubuntu if you prefer).
+4️⃣ Instance Type: t2.micro (Free Tier eligible).
+5️⃣ Key Pair: Use the same key pair as web-server-1.
+6️⃣ Network Settings:
+
+Select the same VPC as web-server-1.
+Choose a different subnet (for high availability).
+Enable Auto-Assign Public IP.
+7️⃣ Security Group:
+Use the same security group as web-server-1 (allow SSH & HTTP).
+## 📌 User Data (Change the Message for web-server-2)
+- Under "Advanced Details" → Paste this User Data script:
+    - #!/bin/bash
+    - yum update -y
+    - yum install -y httpd
+    - echo "<h1>Welcome to Web Server 2</h1>" > /var/www/html/index.html
+    - systemctl start httpd
+    - systemctl enable httpd
+
+![image](https://github.com/user-attachments/assets/d5cbfe33-9cc3-4ac7-b9ae-eb7481d3e7a8)
+
+![image](https://github.com/user-attachments/assets/87745904-dc37-40e3-b067-202ee381ef0a)
 
