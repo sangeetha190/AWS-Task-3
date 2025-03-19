@@ -26,7 +26,29 @@
       - ✅ File is successfully uploaded to S3.
  
 ![image](https://github.com/user-attachments/assets/53afda2b-88b4-4a88-83b5-d15cac9be59e)
-  
+
+#### Step 3: Enable CloudTrail to Log S3 File Activities
+To track uploads, downloads, and deletions, we need to enable CloudTrail.
+
+      - Go to AWS CloudTrail → Click "Create trail".
+      - Enter Trail Name: s3-logging-trail.
+      - Storage Location:
+           - Select "Use existing S3 bucket" and choose my-private-bucket 
+           - This will store CloudTrail logs inside your bucket.
+      - Enable Logging for S3:
+           - Scroll to Data events → Select S3.
+           - Choose "Specify bucket" and select my-private-bucket.
+           - Enable "Read & Write" (to log uploads & deletions).
+       -  Click "Next", review the settings, and click "Create Trail".
+       - ✅ CloudTrail is now tracking S3 file activities.
+
+
+
+
+
+
+
+
 - Create bucket 
 
 new 
