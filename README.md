@@ -153,4 +153,25 @@ After Lanuch the Both the Instances the Output is
 
 ![image](https://github.com/user-attachments/assets/4e621f41-8e53-4266-b571-936074f3a1aa)
 
+#### ✅ 1. Go to AWS Console → Create Load Balancer
+- 1️⃣ Go to EC2 Dashboard → Click "Load Balancers" (on the left panel).
+- 2️⃣ Click "Create Load Balancer".
+![image](https://github.com/user-attachments/assets/ab044c6f-3721-41ab-a9cf-c5204c7d3b72)
+
+- 3️⃣ Choose "Application Load Balancer".
+- 4️⃣ Enter Load Balancer Name: web-alb.
+- 5️⃣ Scheme: Select Internet-facing.
+- 6️⃣ Listeners:
+Select HTTP (Port 80).
+
+
+Create the target Group and
+![image](https://github.com/user-attachments/assets/045c4b44-d597-4256-82aa-027f039e9e80)
+![image](https://github.com/user-attachments/assets/b276d2f1-d231-4474-84bc-c90389aee956)
+
+![image](https://github.com/user-attachments/assets/67ff92c7-96f8-4f32-8692-9961f19b3353)
+
+![image](https://github.com/user-attachments/assets/bd6f6bf2-6a2f-48a4-ae88-de2011aef744)
+
+
 
