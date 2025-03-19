@@ -80,6 +80,11 @@ next step
 ## Task 2 
 ### 📌 Step 1: Launch Two EC2 Instances
    - We need two servers (EC2 instances) that will run behind the Load Balancer.
+
+![image](https://github.com/user-attachments/assets/fcf3528f-37cc-43e9-aa95-b4cddfa82425)
+
+![image](https://github.com/user-attachments/assets/163a7db2-2880-47e9-8869-071b31f75131)
+
 #### Create EC2 Instance 1 (web-server-1)
     - 1️⃣ Create Two EC2 Instances
         - Navigate to AWS EC2 Console.
