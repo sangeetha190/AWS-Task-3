@@ -1,4 +1,4 @@
-# S3 Bucket with CloudWatch Logging - Step-by-Step Guide
+### S3 Bucket with CloudWatch Logging - Step-by-Step Guide
 ## Task Breakdown & Completion Status:
 ✅ Step 1: Created an S3 bucket with no public access.
 ✅ Step 2: Uploaded files to the private S3 bucket.
@@ -16,14 +16,15 @@
 - 7️⃣ Click "Create bucket".
 
 ✅ Bucket is now created with no public access.
-![image](https://github.com/user-attachments/assets/3a1f2f35-7cd5-4a9e-849d-b8b463dd36fe)
+- ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
+- ![image](https://github.com/user-attachments/assets/3a1f2f35-7cd5-4a9e-849d-b8b463dd36fe)
 
 
 
 - Create bucket 
 
 new 
-- ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
+
 new
 
 upload the file
