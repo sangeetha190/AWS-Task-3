@@ -1,23 +1,22 @@
 ### S3 Bucket with CloudWatch Logging - Step-by-Step Guide
-## Task Breakdown & Completion Status:
-✅ Step 1: Created an S3 bucket with no public access.
-✅ Step 2: Uploaded files to the private S3 bucket.
-✅ Step 3: Enabled CloudTrail to track S3 activities.
-✅ Step 4: Configured CloudWatch Logs to store and view logs.
-✅ Step 5: Verified file upload (PutObject) and delete (DeleteObject) logs in CloudWatch.
+#### Task Breakdown & Completion Status:
+- Step 1: Created an S3 bucket with no public access.
+- Step 2: Uploaded files to the private S3 bucket.
+- Step 3: Enabled CloudTrail to track S3 activities.
+- Step 4: Configured CloudWatch Logs to store and view logs.
+- Step 5: Verified file upload (PutObject) and delete (DeleteObject) logs in CloudWatch.
 
 🛠 Step 1: Create an S3 Bucket (Private)
-- 1️⃣ Log in to AWS Console → Navigate to S3.
-- 2️⃣ Click "Create bucket".
-- 3️⃣ Enter a Bucket Name (e.g., my-private-bucket).
-- 4️⃣ Choose a Region (same as your AWS resources).
-- 5️⃣ Block all public access → ✅ Enable (this ensures the bucket remains private).
-- 6️⃣ Object Ownership → Keep it ACLs disabled (recommended).
-- 7️⃣ Click "Create bucket".
+- 1. Log in to AWS Console → Navigate to S3.
+- 2. Click "Create bucket".
+- 3️. Enter a Bucket Name (e.g., my-private-bucket).
+- 4. Choose a Region (same as your AWS resources).
+- 5. Block all public access →  Enable (this ensures the bucket remains private).
+- 6. Object Ownership → Keep it ACLs disabled (recommended).
+- 7. Click "Create bucket".
 
-✅ Bucket is now created with no public access.
+-  Bucket is now created with no public access.
 - ![image](https://github.com/user-attachments/assets/b82d35d9-e21a-4887-afa1-f07420859f62)
-- ![image](https://github.com/user-attachments/assets/3a1f2f35-7cd5-4a9e-849d-b8b463dd36fe)
 
 
 
