@@ -112,17 +112,43 @@ next step
 ### Create an Application Load Balancer (ALB)
   - Go to AWS Load Balancers Console.
   - Click Create Load Balancer → Select Application Load Balancer.
+![image](https://github.com/user-attachments/assets/1244e716-1b07-446f-9701-dc90eb6b2d30)
   - Configure
-  - Scheme: Internet-facing.
-  - IP Address Type: IPv4.
-  - Availability Zones: Select at least two subnets.
+      - Scheme: Internet-facing.
+      - IP Address Type: IPv4.
+      - Availability Zones: Select at least two subnets.
 
- - Go to AWS Load Balancers Console.
-  - Click Create Load Balancer → Select Application Load Balancer.
-  - Configure
-  - Scheme: Internet-facing.
-  - IP Address Type: IPv4.
+ - Configure Security Group
+     - Allow HTTP (Port 80) from Anywhere.
+ - Create a Target Group:
+     - Choose Instance Type as target.
+     - Port: 80.
+     - Health Check Path: /index.html (change from / to avoid failure).
+![image](https://github.com/user-attachments/assets/99eae7c2-70ff-4995-aa0c-8c834d32638a)
 
+ - Register Targets (EC2 Instances):
+     - Select both instances and register them.
+
+![image](https://github.com/user-attachments/assets/6c0356bd-ccec-4d94-8cc6-c112836e7f2d)
+##  Testing the Load Balancer
+  - Wait for the ALB status to become Active.
+  - Open the Load Balancer DNS Name in a browser.
+  
+      - [Scheme: Internet-facing.](http://web-alb-xxxxxx.ap-south-1.elb.amazonaws.com/)
+      
+ - Expected Output:
+      - Welcome to Web Server 1
+      - Welcome to Web Server 2
+## (Load Balancer is distributing traffic between both servers)
+![image](https://github.com/user-attachments/assets/59b29663-5b1e-42c3-8866-5a6d0e01798b)
+
+![image](https://github.com/user-attachments/assets/de6e9a92-8c0e-4c31-a0f3-c43c5b730d52)
+
+
+🎯 Final Confirmation
+- ✅ Web Servers are running
+- ✅ Load Balancer is distributing traffic
+- ✅ DNS is accessible and responding correctly
 create instance
 ## 📌 Steps to Create web-server-2 (Same as web-server-1, with a small change)
 1️⃣ Go to AWS EC2 → Click "Launch Instance".
