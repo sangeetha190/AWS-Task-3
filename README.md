@@ -80,12 +80,11 @@ next step
 ## Task 2 
 ### 📌 Step 1: Launch Two EC2 Instances
    - We need two servers (EC2 instances) that will run behind the Load Balancer.
-#### Task Breakdown & Completion Status:
-- Step 1: Created an S3 bucket with no public access.
-- Step 2: Uploaded files to the private S3 bucket.
-- Step 3: Enabled CloudTrail to track S3 activities.
-- Step 4: Configured CloudWatch Logs to store and view logs.
-- Step 5: Verified file upload (PutObject) and delete (DeleteObject) logs in CloudWatch.
+  - Navigate to AWS EC2 Console..
+  - Choose Amazon Linux 2 as the AMI.
+  - Select t2.micro instance type.
+  - Configure instance details and ensure both instances are in the same VPC.
+  - Add User Data to install a web server:
 
 - ![image](https://github.com/user-attachments/assets/fcf3528f-37cc-43e9-aa95-b4cddfa82425)
 - ![image](https://github.com/user-attachments/assets/baeadc62-0a7b-4136-9bcb-31e919712810)
