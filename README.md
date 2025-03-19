@@ -76,3 +76,43 @@ next step
 ![image](https://github.com/user-attachments/assets/b831bd14-33f7-4fc4-b4cd-e230f5d3f9d9)
 
 ### Task 1 is Done.
+📌 Step 1: Launch Two EC2 Instances
+We need two servers (EC2 instances) that will run behind the Load Balancer.
+
+#### Create EC2 Instance 1 (web-server-1)
+       - Go to AWS Console → Search "EC2" → Click "Instances".
+   ![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
+       - Click "Launch Instance" → Give it a name web-server-1.
+3️⃣ Choose Amazon Machine Image (AMI):
+
+Select Amazon Linux 2 (or Ubuntu if you prefer).
+4️⃣ Choose Instance Type:
+Select t2.micro (Free Tier eligible).
+5️⃣ Key Pair:
+Select an existing key pair or create a new one (Save the private key .pem file).
+6️⃣ Network Settings:
+Choose "Default VPC" or create a new VPC (default is fine).
+Select "Public Subnet" (so we can access it).
+Enable Auto-Assign Public IP.
+7️⃣ Security Group:
+Create a new security group:
+Allow SSH (port 22) (for connecting to the instance).
+Allow HTTP (port 80) (to allow web traffic).
+8️⃣ Add User Data (This script will set up a web server automatically):
+
+Click Advanced details → User Data → Paste this script:
+#!/bin/bash
+yum update -y
+yum install -y httpd
+echo "<h1>Welcome to Web Server 1</h1>" > /var/www/html/index.html
+systemctl start httpd
+systemctl enable httpd
+9️⃣ Click "Launch Instance".
+
+✅ Instance 1 (web-server-1) is now running! 🎉
+
+create instance
+![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
+
+
+
