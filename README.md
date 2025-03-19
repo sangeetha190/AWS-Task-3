@@ -35,6 +35,15 @@ To track uploads, downloads, and deletions, we need to enable CloudTrail.
       - Storage Location:
            - Select "Use existing S3 bucket" and choose my-private-bucket 
            - This will store CloudTrail logs inside your bucket.
+
+
+create the tail
+- ![image](https://github.com/user-attachments/assets/e1bf5ed5-8b63-4bfc-a7f4-77a9b4d816c2)
+next step 
+- ![image](https://github.com/user-attachments/assets/b52c4fe8-b977-4f6c-985f-b8e544dcbf1a)
+- review and proceed
+![image](https://github.com/user-attachments/assets/9d0a3d8b-1ed3-4b0d-b748-a1b86ab775f4)
+
       - Enable Logging for S3:
            - Scroll to Data events → Select S3.
            - Choose "Specify bucket" and select my-private-bucket.
