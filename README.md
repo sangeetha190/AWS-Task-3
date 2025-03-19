@@ -116,5 +116,6 @@ systemctl enable httpd
 create instance
 ![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
 
+![image](https://github.com/user-attachments/assets/baaa6488-d6f1-4773-837a-b745c6044bcb)
 
 
