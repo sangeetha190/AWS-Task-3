@@ -61,6 +61,9 @@ next step
         - Click "Save Changes".
         - ✅ Now, S3 logs will be visible in CloudWatch Logs.
 
+![image](https://github.com/user-attachments/assets/676f60c2-ae52-429b-8853-366c42d4582c)
+![image](https://github.com/user-attachments/assets/e878eda9-3ad2-40b0-9ef3-a3e47aed9e24)
+
 
 
 - Create bucket 
