@@ -76,13 +76,15 @@ next step
 ![image](https://github.com/user-attachments/assets/b831bd14-33f7-4fc4-b4cd-e230f5d3f9d9)
 
 ### Task 1 is Done.
+==================================================================================================================================
+## Task 2 
 📌 Step 1: Launch Two EC2 Instances
 We need two servers (EC2 instances) that will run behind the Load Balancer.
 
 #### Create EC2 Instance 1 (web-server-1)
        - Go to AWS Console → Search "EC2" → Click "Instances".
    ![image](https://github.com/user-attachments/assets/cead4134-abbc-425e-97cf-508d05768dfc)
-       - Click "Launch Instance" → Give it a name web-server-1.
+       - Click "Launch Instance" → Give it a name "web-server-1".
 3️⃣ Choose Amazon Machine Image (AMI):
 
 Select Amazon Linux 2 (or Ubuntu if you prefer).
